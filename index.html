@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nephelos</title>
+<meta name="description" content="Independent software and infrastructure. Luca — Bordeaux, France.">
+<meta name="color-scheme" content="dark light">
+<link rel="canonical" href="https://nephelos.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="nephelos">
+<meta property="og:description" content="Independent software and infrastructure. Luca — Bordeaux, France.">
+<meta property="og:url" content="https://nephelos.com">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="nephelos">
+<meta name="twitter:description" content="Independent software and infrastructure. Luca — Bordeaux, France.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316161a'/%3E%3Cpath d='M11 23V13m0 4.5a5 5 0 0 1 10 0V23' fill='none' stroke='%23e7e5e0' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #111113;
+    --fg: #e7e5e0;
+    --muted: #8a8780;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      color-scheme: light;
+      --bg: #f7f6f2;
+      --fg: #1a1a1c;
+      --muted: #6b6862;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #111113;
+      --fg: #e7e5e0;
+      --muted: #8a8780;
+    }
+  }
+
+  * { margin: 0; box-sizing: border-box; }
+
+  html {
+    background: var(--bg);
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding: clamp(1.5rem, 8vh, 4rem) 1.5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 14vw, 4.75rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.035em;
+  }
+
+  p { text-wrap: pretty; }
+
+  .nowrap { white-space: nowrap; }
+
+  .gloss {
+    margin-top: 1rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .about {
+    margin-top: 3.5rem;
+  }
+
+  .motto {
+    margin-top: 2.5rem;
+    font-size: 1.1875rem;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+  }
+
+  .sig {
+    margin-top: 4rem;
+    color: var(--muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>nephelos</h1>
+  <p class="gloss">cloud, in Greek ... just not someone else's.</p>
+
+  <p class="about">
+    Independent software and infrastructure.<br>
+    Mail, files, automation, services, <span class="nowrap">self-hosted</span>, end to end.<br>
+    The models are rented. The ground they run on is not.
+  </p>
+
+  <p class="motto">If you can't unplug it, it isn't yours. Own your data.</p>
+
+  <p class="sig">Luca · Bordeaux, France</p>
+</main>
+</body>
+</html>
